@@ -1,0 +1,124 @@
+{
+  "grid_points": 91,
+  "grid_runs": 182,
+  "max_grid_pair_difference": 5.215705435363063e-10,
+  "ofat_relative_spread": 9.070419515840059e-10,
+  "max_grid_mp_difference": 2.4984820150860897e-10,
+  "windows": [
+    {
+      "delta_max": 0.5,
+      "points": 78,
+      "max_leading_error": 0.1376752490650179,
+      "max_two_term_error": 0.021753423939399018,
+      "max_abs_residual_over_delta": 0.05532787162404665
+    },
+    {
+      "delta_max": 0.1,
+      "points": 54,
+      "max_leading_error": 0.056790360254666716,
+      "max_two_term_error": 0.0028477409162490593,
+      "max_abs_residual_over_delta": 0.033109257449068105
+    },
+    {
+      "delta_max": 0.01,
+      "points": 24,
+      "max_leading_error": 0.013304705742380386,
+      "max_two_term_error": 0.00013630620277699045,
+      "max_abs_residual_over_delta": 0.015149202074545835
+    },
+    {
+      "delta_max": 0.001,
+      "points": 6,
+      "max_leading_error": 0.002919901846883189,
+      "max_two_term_error": 6.353977938747588e-06,
+      "max_abs_residual_over_delta": 0.006988321089188988
+    }
+  ],
+  "observed_slopes": [
+    {
+      "eps": 0.001,
+      "observed_residual_log_slope": 1.335993069074252,
+      "points": 4
+    },
+    {
+      "eps": 0.05,
+      "observed_residual_log_slope": 1.335962403922206,
+      "points": 4
+    },
+    {
+      "eps": 0.2,
+      "observed_residual_log_slope": 1.3356765135510305,
+      "points": 4
+    },
+    {
+      "eps": 0.5,
+      "observed_residual_log_slope": 1.334244647329089,
+      "points": 4
+    },
+    {
+      "eps": 0.8,
+      "observed_residual_log_slope": 1.3321411910231107,
+      "points": 4
+    },
+    {
+      "eps": 0.95,
+      "observed_residual_log_slope": 1.3309986155430797,
+      "points": 4
+    }
+  ],
+  "epsilon_half": [
+    {
+      "delta": 0.1,
+      "eps": 0.5,
+      "C": 0.280000506584604,
+      "F": 1.120002026338416,
+      "B0": 1.0717967697244908,
+      "B1": 0.23645358811458275,
+      "C0": 0.2679491924311227,
+      "C1": 0.2806847877515369,
+      "error_leading": 0.04304032982111734,
+      "error_two_term": 0.002443856888973666,
+      "error_cardoso": 0.27951788251012427,
+      "extracted_B1": 0.22374898082063363,
+      "residual": -0.002737124667731603,
+      "residual_over_delta": -0.02737124667731603,
+      "pair_relative_difference": 3.563207839049171e-13
+    },
+    {
+      "delta": 0.01,
+      "eps": 0.5,
+      "C": 0.2706611910721623,
+      "F": 1.0826447642886492,
+      "B0": 1.0717967697244908,
+      "B1": 0.23645358811458275,
+      "C0": 0.2679491924311227,
+      "C1": 0.27069299326677354,
+      "error_leading": 0.010019902115617802,
+      "error_two_term": 0.00011749816988994885,
+      "error_cardoso": 0.3236683614215518,
+      "extracted_B1": 0.23371295806300108,
+      "residual": -0.00012720877844485132,
+      "residual_over_delta": -0.012720877844485133,
+      "pair_relative_difference": 2.7709920178398935e-14
+    },
+    {
+      "delta": 0.001,
+      "eps": 0.5,
+      "C": 0.2685388533731069,
+      "F": 1.0741554134924276,
+      "B0": 1.0717967697244908,
+      "B1": 0.23645358811458275,
+      "C0": 0.2679491924311227,
+      "C1": 0.2685403264014092,
+      "error_leading": 0.0021958123920523365,
+      "error_two_term": 5.485345169835464e-06,
+      "error_cardoso": 0.3341296828623962,
+      "extracted_B1": 0.23586437679367742,
+      "residual": -5.892113209053304e-06,
+      "residual_over_delta": -0.005892113209053303,
+      "pair_relative_difference": 3.2717798149650858e-12
+    }
+  ],
+  "max_exact_LZ_error": 2.9687363678476686e-13,
+  "scope": "Discrepancies and grid maxima are empirical diagnostics, NOT certified error bounds or continuum suprema."
+}

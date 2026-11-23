@@ -1,0 +1,16 @@
+{
+  "original_source": "audit/verify_prefactor.py",
+  "original_sha256": "216fcfc413c28a75209cd3e5529036c1b56c60e118d50fb2eee6279523a25768",
+  "functions_extracted": [
+    "jost_coefficients",
+    "sval",
+    "scattering",
+    "scattering_mp"
+  ],
+  "changes": "Removed unused imports, auxiliary integrals, old batch driver, and output-only predicted/Cardoso fields. Mathematical numerical core unchanged. Added portable CLI and separate 80-digit analysis.",
+  "former_wrapper": "correction/numerics.py",
+  "former_wrapper_issue": "Its enrich() inherited default mpmath precision. It is not included; run_point.py performs diagnostics within mp.workdps(80).",
+  "new_grid_runs": 0,
+  "new_portability_point_runs": 1,
+  "new_mp_runs": 0
+}

@@ -1,0 +1,37 @@
+{
+  "method": "binary64",
+  "result": {
+    "delta": 0.1,
+    "eps": 0.5,
+    "eta": 0.5,
+    "T": 8,
+    "order": 48,
+    "rtol": 3e-14,
+    "c": 1.7,
+    "dps": 80,
+    "real_axis": false,
+    "both_sides": false,
+    "C": 0.280000506584604,
+    "Wronskian_real": 0.09666712210092976,
+    "Wronskian_imag": 0.0,
+    "center_drift": 2.9784530857201725e-13,
+    "last_boundary_term": 7.962633017027428e-44,
+    "nfev": 30038
+  },
+  "comparison": {
+    "arithmetic_dps": 80,
+    "precision_note": "These diagnostics retain the accuracy of the numerical input; 80-digit arithmetic does not imply 80-digit accurate propagation.",
+    "B0": "1.07179676972449082589021463398",
+    "B1": "0.236453588114582741298465069545",
+    "leading_C": "0.267949192431122706472553658494",
+    "two_term_C": "0.280684787751536900801082177243",
+    "F": "1.120002026338416",
+    "relative_leading_error": "0.04304032982111733952617164",
+    "relative_two_term_error": "0.002443856888973665956020152",
+    "residual_over_delta": "-0.02737124667731603204328709",
+    "accepted_grid_C": "0.280000506584604",
+    "relative_difference_from_grid": "0.0"
+  },
+  "elapsed_seconds": 0.29850421700029983,
+  "scope": "One-point reproducibility calculation; diagnostics are not certified error bounds."
+}

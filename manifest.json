@@ -1,0 +1,38 @@
+{
+  "title": "Calibration tolerance for a counterdiabatic Landau–Zener sweep",
+  "date": "2026-11-23",
+  "source_archive": {
+    "archive": "lz_calibration_tolerance_v11_2026-11-22.zip",
+    "sha256": "70b6f92793e02443025a71c74ced47d9c3f99339c5425dc92b636478ee066d55"
+  },
+  "files": {
+    ".gitattributes": "2db35efb2be88b2bab44e75ba3ab9249624f4647e0f528bf5ae3b44c0a25bbfc",
+    ".gitignore": "c4e7ae64117c17a8882c01ec4dda402e95a735fbf2cd4d04c90e0cf180c1a6be",
+    "README.md": "8e01b98f7ebe642a4f2e0b8528391283a5a3a15b55fe05871877a4289e5f6147",
+    "data/audited_grid.csv": "08771c064e2d1fa8c52c8c46ef1ab115ede348fc1bc3d0e012d6cc51cd5f9af1",
+    "data/calibration_tolerance.csv": "d3209693be7c1efb0b970377a09f147b22227fbba3e4163d0cb0f9859870da04",
+    "data/curvature_tolerance.csv": "7bc4be25bc9b0aefcc04278ea4d99a6ac150ed10884fa1bbabef9024040c5e14",
+    "data/fixed_gain_examples.csv": "ddc5f80c34ab903c47c271f174e1b7f8e32109fe9cb21ff3fa9f45efeb6ab29a",
+    "data/independent_grid.csv": "fcc59201bf9bfbe8ff81999b339a55260247a5640e40a4d1376c2b217dd49956",
+    "data/stage3_summary.json": "5023d6a0c97ddaa2d8420dba046e32d3926a2f4b3ea569f66c6cbe2933bf71f9",
+    "figure_data_summary.json": "294862e2b5c08072127b3ebe82ec3086c169ce67234bdf2dd2f2b6c90922eb89",
+    "figures/calibration_ratio.pdf": "681dd405388215afd4c789b451c7ac8190cd945a14d59fb65fe0adbd17954f81",
+    "figures/calibration_ratio.png": "61b3ab692547f27cae6fdff260d519e3920cac95a61e9bbf3e49926bc8cc7cf7",
+    "figures/prefactor_comparison.pdf": "4061bd74c63568084f60932e32858c1699574d50e4cc9017de38545a73527598",
+    "figures/prefactor_comparison.png": "dfba6406aa682fabd6e36c93baaa067ea90d5fdc808337fc2acf8aaa08031370",
+    "figures/relative_errors.pdf": "0217c441a90db10904b412e230737bd8b42e340eb7287bc8bdf7a1803c640b58",
+    "figures/relative_errors.png": "c3f540753098482025ad6a0be4ff47c036e2a57b5f53d6dbd5be59029f4aa108",
+    "make_manuscript_figures.py": "972139b467958912b5f8272d0a5c3ae1b2541785b65d7a193c77abeb07609827",
+    "numerics/README.md": "d13db068847e514012ff538f794fe1fa1df48fdd0523b12d8470062f3024649a",
+    "numerics/calibration_tolerance.py": "7adeeccee1ac3c055348e0da90a1e2b3e4da28f1a859f1783398008bcc03e358",
+    "numerics/core.py": "4f5006aa00701089e014681fe9cec20c8e22884f12cad05c15981e53a429001e",
+    "numerics/curvature_tolerance.py": "5cde090cba1e456d7231ba52e3ad1ef67cbe43ae578ea6b6abf842bb07d0f6cd",
+    "numerics/environment.json": "cf5f665dabc0a4c2a2215a7bf701653f65eaf95b694c80cea93afcb075a00ed8",
+    "numerics/example_run.json": "34e5be1d332a99ed34ce72f295b4ca4a3491cd28f1200305964bec7797925fa3",
+    "numerics/fixed_gain_examples.py": "55c75f9c4f26eb4400d4703978f636738df643891695a157e5e63dc2fd065021",
+    "numerics/independent_check.py": "067db8b6da521b3e2917aabcc1ef2260ac2ff4c19d8a66a28e7ae2969c8bd58b",
+    "numerics/requirements.txt": "c5d7445c180df8eb2f01517986bd040a6e6210a13bcfc5a11e45d39503e06f42",
+    "numerics/run_point.py": "109ba456a519c719862cc2c5c9e82d2f5b6d393cc18f1c4a090d1865869218a7",
+    "numerics/source_provenance.json": "c7b3641c7ef09a003b871de4ad06de823c3586bb65252e79ee2d284aa5d4e733"
+  }
+}

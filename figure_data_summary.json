@@ -1,0 +1,63 @@
+{
+  "input_sha256": "08771c064e2d1fa8c52c8c46ef1ab115ede348fc1bc3d0e012d6cc51cd5f9af1",
+  "grid_points": 91,
+  "grid_runs_in_source_audit": 182,
+  "epsilon_values": [
+    0.001,
+    0.05,
+    0.2,
+    0.5,
+    0.8,
+    0.95,
+    1.0
+  ],
+  "delta_values": [
+    0.001,
+    0.002,
+    0.005,
+    0.01,
+    0.02,
+    0.03,
+    0.05,
+    0.07,
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.5
+  ],
+  "plotted_epsilon_values_supplemental_figure": [
+    0.001,
+    0.5,
+    0.95
+  ],
+  "epsilon_half_table": [
+    {
+      "delta": 0.1,
+      "C": 0.280000506584604,
+      "error_leading": 0.04304032982111734,
+      "error_two_term": 0.002443856888973666,
+      "error_cardoso": 0.27951788251012427
+    },
+    {
+      "delta": 0.01,
+      "C": 0.2706611910721623,
+      "error_leading": 0.010019902115617802,
+      "error_two_term": 0.00011749816988994885,
+      "error_cardoso": 0.3236683614215518
+    },
+    {
+      "delta": 0.001,
+      "C": 0.2685388533731069,
+      "error_leading": 0.0021958123920523365,
+      "error_two_term": 5.485345169835464e-06,
+      "error_cardoso": 0.3341296828623962
+    }
+  ],
+  "target_for_field_settings": 0.01,
+  "propagated_field_settings": 18,
+  "field_settings_sha256": "d3209693be7c1efb0b970377a09f147b22227fbba3e4163d0cb0f9859870da04",
+  "curvature_quadrature_points_in_fig1b": 257,
+  "curvature_check_sha256": "7bc4be25bc9b0aefcc04278ea4d99a6ac150ed10884fa1bbabef9024040c5e14",
+  "scope": "The curve in Fig. 1(b) uses curvature quadrature at logarithmically spaced rates. The circles give propagated thresholds, horizontal lines give limiting thresholds, and the inset shows the slow rate correction."
+}
